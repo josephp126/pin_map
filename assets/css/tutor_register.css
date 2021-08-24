@@ -1,0 +1,58 @@
+body {
+  color: #333;
+  background: #fafafa;
+  font-family: "Patua One", sans-serif;
+}
+.contact-form {
+  padding: 20px;
+  margin: 30px 0;
+}
+.contact-form h1 {
+  color: #19bc9d;
+  font-weight: bold;
+  margin: 0 0 15px;
+}
+.contact-form .form-control, .contact-form .btn {
+  min-height: 38px;
+  border-radius: 2px;
+}
+.contact-form .form-control:focus {
+  border-color: #19bc9d;
+}
+.contact-form .btn-primary, .contact-form .btn-primary:active {
+  color: #fff;
+  min-width: 150px;
+  font-size: 20px;
+  background: #19bc9d !important;
+  border: none;
+}
+.contact-form .btn-primary:hover {
+  background: #15a487 !important; 
+}
+.contact-form .btn i {
+  margin-right: 5px;
+}
+.contact-form label {
+  font-size:14px;
+  opacity: 0.9;
+}
+.contact-form textarea {
+  resize: vertical;
+}
+.hint-text {
+  font-size: 20px;
+  padding-bottom: 20px;
+  opacity: 0.9;
+}
+.container-lg {
+  background: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 30px;
+}
+.container {
+  padding: 10px;
+}

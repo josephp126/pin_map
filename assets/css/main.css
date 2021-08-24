@@ -1,0 +1,322 @@
+.whole-container {
+	background-color: #edeff0;
+	padding: 10px 17px;
+}
+.tutor {
+	margin-bottom: 18px;
+}
+.container-search {
+	width: 100%;
+	margin-top: 25px;
+}
+.form-control {
+	font-size: 12px;
+}
+.btn-search {
+	background: #424242;
+	border-radius: 0;
+	color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #1c1c1c;
+	font-size: 12px;
+}
+.btn-search:link,
+.btn-search:visited {
+	color: #fff;
+}
+.btn-search:active,
+.btn-search:hover {
+	background: #1c1c1c;
+	color: #fff;
+}
+
+.main1 {
+	padding: 0px;
+}
+.profile {
+	padding: 10px;
+	border-color: grey;
+	border-radius: 12px;
+	margin: 3px;
+}
+.tutor {
+	background: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgrey;
+	border-radius: 10px;
+	padding: 15px;
+}
+div.gallery {
+	border: 1px solid #ccc;
+	width: 100%;
+}
+
+div.gallery:hover {
+	border: 1px solid #777;
+}
+
+div.gallery img {
+	width: 100%;
+	height: auto;
+}
+.online_badge {
+	background-color: #50bf16;
+	color: #fff;
+	text-align: center;
+}
+.photo {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	border-radius: 4px;
+	overflow: hidden;
+}
+.desc {
+	text-align: center;
+}
+.gallery:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 40px;
+	z-index: 1;
+}
+.place-holder {
+	margin:auto;
+	color:#999;
+	font-size: 20px;
+}
+.on_badge {
+	background-color: #aeb5bc;
+	position: absolute;
+	top: 25px;
+	left: 7px;
+	z-index: 1;
+	cursor: pointer;
+	margin: 8px;
+	width: 12px;
+	height: 12px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	box-shadow: 0 0 2px rgb(0 0 0 / 20%);
+}
+.first-line {
+	display: inline;
+	vertical-align: middle;
+}
+.Name {
+	display: inline;
+	font-size: 24px;
+    margin-top: 5px;
+    color: rgb(2,2,2,0.8);
+}
+.lang_display {
+	font-size: 15px;
+    color: rgb(2,2,2,0.7);
+}
+.TutorSubjectsBlock___25lf1 {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	flex: 1 1 100%;
+	list-style: none;
+}
+.third-line {
+	margin-top: 12px;
+}
+.ActiveStudentsIcon___3gdmX {
+	width: 14px;
+	height: 14px;
+	margin-right: 4px;
+	fill: #6f757b;
+}
+.lang_sel {
+	display: inline-block;
+	list-style: none;
+	color: #6f757b;
+	font-size: 13px;
+}
+.intro {
+	margin-right: 4px;
+	word-break: break-all;
+	display: inline-flex;
+	font-size: 16px;
+}
+.SpeaksItem___28ZUB {
+	display: inline;
+	line-height: 2;
+	font-size: 15px;
+}
+.SpeaksLevelGreen___3JBst {
+	color: #50bf16;
+	background-color: #eef7e9;
+}
+
+.SpeaksLevelBlue___wKOBE {
+	color: #3bb3bd;
+	background-color: #ebf7f8;
+}
+
+.Headline___7WVvy {
+	display: inline-block;
+	color: #384047;
+	font-weight: 500;
+	font-size: 15px;
+	margin-top: 13px;
+}
+.ShortBio___1gIDW {
+	position: relative;
+	display: inline;
+	font-weight: 400;
+	color: #6f757b;
+	word-break: normal;
+	overflow-wrap: anywhere;
+	font-size: 16px;
+	margin-bottom: 1px !important;
+}
+.Headline___7WVvy + .ShortBio___1gIDW:before {
+	content: "\2014 ";
+}
+.SeoSnippetToggleInlined___1mVhC {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin: 0;
+	padding: 0;
+	color: #6f757b;
+	border: none;
+	background-color: #fff;
+	text-transform: lowercase;
+	font-size: 13px;
+	font-weight: 500;
+	cursor: pointer;
+}
+.SeoSnippetToggleInlinedIndicator___1TM91 {
+	margin: 0 4px;
+	color: #6f757b;
+	font-weight: 400;
+}
+.SeoSnippetViewProfileCTA___2DxQQ {
+	display: inline-flex;
+	align-items: center;
+	color: #3bb3bd;
+	text-decoration: none;
+	font-weight: 500;
+}
+.CoreIndicatorsWrap____8r4Z {
+	display: flex;
+	margin-top: 0;
+	flex: 1 1 100%;
+	justify-content: space-evenly;
+	max-width: 300px;
+}
+.CoreIndicatorsItem___1niNK {
+	display: flex;
+	order: 1;
+}
+.RatingIndicator___1x9Q_ {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.RatingIndicatorRating___374zP {
+	display: flex;
+	font-size: 20px;
+	
+    color: rgb(2,2,2,0.8);
+}
+.RatingIndicatorRating___374zP .RatingStarIcon___1RRIx {
+	margin-right: 4px;
+}
+.RatingStarIcon___1RRIx {
+	fill: #fdc425;
+	width: 13px;
+	height: auto;
+}
+.RatingLink___ZkkaE {
+	cursor: pointer;
+	align-items: baseline;
+}
+.CoreIndicatorsItem___1niNK + .CoreIndicatorsItem___1niNK {
+	margin-left: 8px;
+}
+
+.CoreIndicatorsItem___1niNK {
+	display: flex;
+	order: 1;
+}
+.PriceIndicator___1doEU {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+}
+.PriceIndicatorPrice___w9jW1 {
+	display: flex;
+	align-items: baseline;
+	font-size: 32px;
+}
+.PriceIndicatorValueSecond___1vI6H {
+	margin-left: 4px;
+}
+.PriceIndicatorValue___1kV4p {
+	font-size: 35px;
+    color: rgb(2,2,2,0.8);
+}
+.payment-btn{
+	font-size: 20px !important;
+}
+.second-line {
+	margin-top: 10px;
+  }
+.PriceIndicatorDuration___u6cQX {
+	display: inline-flex;
+	align-items: flex-end;
+	margin-top: 4px;
+	color: #6f757b;
+	font-size: 13px;
+	line-height: 1.42857143;
+}
+.ReviewsNumber___1enrU {
+	color: #384047;
+	margin-right: 4px;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1;
+}
+.RatingIndicatorText___2oEyE {
+	display: inline-flex;
+	align-items: baseline;
+	margin-top: 4px;
+	padding: 0;
+	font-size: 13px;
+	line-height: 1.42857143;
+	text-decoration: none;
+	background: none;
+	border: 0;
+}
+.btn_1 {
+	margin-top: 25px;
+}
+.btn-2 {
+	width: 100%;
+	font-size: 13px;
+	color: white;
+}
+.btn-2:hover {
+	color: black;
+}
+.btn-search{
+  align-items: center;
+	display: flex;
+  height: 100%;
+}
+.page-link {
+	cursor: pointer;
+}

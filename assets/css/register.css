@@ -1,0 +1,219 @@
+body {
+  color: Rgb(3,3,3,0.5);
+  background: #fafafa;
+  font-family: "Patua One", sans-serif;
+  font-size:16px;
+}
+.header-top {
+  width:70%;
+}
+.wrap {
+    padding: 20px;
+    font-size: 13px;
+}
+.contact-form {
+  padding: 20px;
+  margin: 30px 0;
+}
+.contact-form h1 {
+  color: #19bc9d;
+  font-weight: bold;
+  margin: 0 0 15px;
+}
+.contact-form .form-control, .contact-form .btn {
+  min-height: 38px;
+  border-radius: 2px;
+  font-size: 14px;
+}
+.contact-form .form-control:focus {
+  border-color: #19bc9d;
+}
+.contact-form .btn-primary, .contact-form .btn-primary:active {
+  color: #fff;
+  min-width: 150px;
+  font-size: 20px;
+  background: #19bc9d !important;
+  border: none;
+}
+.contact-form .btn-primary:hover {
+  background: #15a487 !important; 
+}
+.contact-form .btn i {
+  margin-right: 5px;
+}
+.contact-form label {
+  font-size:16px;
+  opacity: 0.9;
+}
+.contact-form textarea {
+  resize: vertical;
+}
+.hint-text {
+  font-size: 20px;
+  padding-bottom: 20px;
+  opacity: 0.9;
+}
+.container-lg {
+  margin: auto;
+  background: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 30px !important;
+  width: 84%;
+}
+.container {
+  padding: 10px;
+  width: 77%;
+}
+.tuition {
+  width:80%;
+}
+.tuition_box {
+     display: flex; 
+    flex-direction: row;
+}
+.per {
+   margin:auto;
+   font-size:14px;
+}
+.des {
+  padding-top:18px;
+}
+.che {
+      padding-left: 24px;
+      padding-top: 16px;
+    }
+
+.form-control {
+      border-radius: 0;
+      box-shadow: none;
+      border-color: #d2d6de
+  }
+  
+.btn-search {
+  border-radius:6px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+  .select2-hidden-accessible {
+      border: 0 !important;
+      clip: rect(0 0 0 0) !important;
+      height: 1px !important;
+      margin: -1px !important;
+      overflow: hidden !important;
+      padding: 0 !important;
+      position: absolute !important;
+      width: 1px !important;
+      font-size: 17px;
+      margin: auto;
+  }
+  .select2 {
+    font-size: 17px;
+    margin: auto;
+  }
+  
+
+  .select2-container--default .select2-selection--single,
+  .select2-selection .select2-selection--single {
+      border: 1px solid #d2d6de;
+      border-radius: 0;
+      padding: 6px 12px;
+      height: 34px;
+   
+  }
+  
+  .select2-container--default .select2-selection--single {
+      background-color: #fff;
+      border: 1px solid #aaa;
+      border-radius: 4px
+  }
+  
+  .select2-container .select2-selection--single {
+      box-sizing: border-box;
+      cursor: pointer;
+      display: block;
+      height: 28px;
+      user-select: none;
+      -webkit-user-select: none
+  }
+  
+  .select2-container .select2-selection--single .select2-selection__rendered {
+      padding-right: 10px
+  }
+  
+  .select2-container .select2-selection--single .select2-selection__rendered {
+      padding-left: 0;
+      padding-right: 0;
+      height: auto;
+      margin-top: -3px
+  }
+  
+  .select2-container--default .select2-selection--single .select2-selection__rendered {
+      color: #444;
+      line-height: 28px;
+      margin:auto;
+
+  }
+  
+  .select2-container--default .select2-selection--single,
+  .select2-selection .select2-selection--single {
+      border: 1px solid #d2d6de;
+      padding: 6px 12px;
+      height: 40px !important
+  }
+  .mulitple {
+    font-size:14px;
+  }
+  .select2-container--default .select2-selection--single .select2-selection__arrow {
+      height: 26px;
+      position: absolute;
+      top: 6px !important;
+      right: 1px;
+      width: 20px;
+      margin-top:2px;
+  }
+
+.select-dropdown {
+  position: static;
+}
+.select-dropdown .select-dropdown--above {
+      margin-top: 336px;
+}
+
+.tuition {
+  width: 87%;
+}
+#search {
+  font-size:17px;
+}
+.slide {
+  width: 98%;
+}
+.label_tuition {
+  width:100%;
+  text-align: center;
+}
+.slider_range {
+  margin-top: -22px ;
+}

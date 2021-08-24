@@ -1,0 +1,39 @@
+.admin-title{
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.app-sidebar__inner .vertical-nav-menu li a{
+    font-size: 18px !important;
+    font-weight: normal;
+}
+.app-sidebar__inner .vertical-nav-menu .app-sidebar__heading.active a{
+    font-weight: bold;
+}
+
+.create-title{
+    margin-bottom: 30px;
+}
+.create-form .property-upload{
+    margin: 30px 5% 20px 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.create-form .upload-list{
+    background-color: rgb(212, 212, 212);
+    margin-right: 6%;
+    margin-bottom: 12px;
+}
+
+.create-form button[type="submit"]{
+    position: absolute;
+    right: 5%;
+}
+.create-form .row.col-md-12{
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.create-form .upload-image{
+    margin-right: 10px;
+}

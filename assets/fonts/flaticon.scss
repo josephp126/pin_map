@@ -1,0 +1,137 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?041257127a19a30fcf46f413855fcdf7") format("truetype"),
+url("./flaticon.woff?041257127a19a30fcf46f413855fcdf7") format("woff"),
+url("./flaticon.woff2?041257127a19a30fcf46f413855fcdf7") format("woff2"),
+url("./flaticon.eot?041257127a19a30fcf46f413855fcdf7#iefix") format("embedded-opentype"),
+url("./flaticon.svg?041257127a19a30fcf46f413855fcdf7#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "call": "\f101",
+    "left-arrow": "\f102",
+    "right-arrow": "\f103",
+    "check": "\f104",
+    "play": "\f105",
+    "boy": "\f106",
+    "study": "\f107",
+    "teacher": "\f108",
+    "monitor": "\f109",
+    "maps-and-flags": "\f10a",
+    "mail": "\f10b",
+    "magnifying-glass": "\f10c",
+    "laptop": "\f10d",
+    "helmet": "\f10e",
+    "apartment": "\f10f",
+    "computer": "\f110",
+    "briefcase": "\f111",
+    "book": "\f112",
+    "cap": "\f113",
+    "check-1": "\f114",
+    "close": "\f115",
+    "call-1": "\f116",
+    "email": "\f117",
+    "shopping-bag": "\f118",
+    "shopping-bag-1": "\f119",
+    "loupe": "\f11a",
+    "plus": "\f11b",
+    "minus": "\f11c",
+);
+
+.flaticon-call:before {
+    content: map-get($flaticon-map, "call");
+}
+.flaticon-left-arrow:before {
+    content: map-get($flaticon-map, "left-arrow");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon-map, "right-arrow");
+}
+.flaticon-check:before {
+    content: map-get($flaticon-map, "check");
+}
+.flaticon-play:before {
+    content: map-get($flaticon-map, "play");
+}
+.flaticon-boy:before {
+    content: map-get($flaticon-map, "boy");
+}
+.flaticon-study:before {
+    content: map-get($flaticon-map, "study");
+}
+.flaticon-teacher:before {
+    content: map-get($flaticon-map, "teacher");
+}
+.flaticon-monitor:before {
+    content: map-get($flaticon-map, "monitor");
+}
+.flaticon-maps-and-flags:before {
+    content: map-get($flaticon-map, "maps-and-flags");
+}
+.flaticon-mail:before {
+    content: map-get($flaticon-map, "mail");
+}
+.flaticon-magnifying-glass:before {
+    content: map-get($flaticon-map, "magnifying-glass");
+}
+.flaticon-laptop:before {
+    content: map-get($flaticon-map, "laptop");
+}
+.flaticon-helmet:before {
+    content: map-get($flaticon-map, "helmet");
+}
+.flaticon-apartment:before {
+    content: map-get($flaticon-map, "apartment");
+}
+.flaticon-computer:before {
+    content: map-get($flaticon-map, "computer");
+}
+.flaticon-briefcase:before {
+    content: map-get($flaticon-map, "briefcase");
+}
+.flaticon-book:before {
+    content: map-get($flaticon-map, "book");
+}
+.flaticon-cap:before {
+    content: map-get($flaticon-map, "cap");
+}
+.flaticon-check-1:before {
+    content: map-get($flaticon-map, "check-1");
+}
+.flaticon-close:before {
+    content: map-get($flaticon-map, "close");
+}
+.flaticon-call-1:before {
+    content: map-get($flaticon-map, "call-1");
+}
+.flaticon-email:before {
+    content: map-get($flaticon-map, "email");
+}
+.flaticon-shopping-bag:before {
+    content: map-get($flaticon-map, "shopping-bag");
+}
+.flaticon-shopping-bag-1:before {
+    content: map-get($flaticon-map, "shopping-bag-1");
+}
+.flaticon-loupe:before {
+    content: map-get($flaticon-map, "loupe");
+}
+.flaticon-plus:before {
+    content: map-get($flaticon-map, "plus");
+}
+.flaticon-minus:before {
+    content: map-get($flaticon-map, "minus");
+}

@@ -1,0 +1,35 @@
+
+
+.total {
+	margin:27px 0px;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+	color: RGB(2,2,2,0.67);
+    font-size: 15px;
+    font-weight: 600;
+	
+}
+.payment-details {
+	margin-bottom: 0px;
+}
+.btn-pay {
+	margin-bottom:45px;
+}
+.credit-card-box{
+	max-width: 450px;
+	min-width:450px;
+}
+.control-label {
+	color:Rgb(3,3,3,0.5);
+	font-size:18px;
+	margin:12px 0px;
+}
+.form-margin {
+	margin-top:0px;
+}
+.title-top {
+	margin-top: 26px;
+}

@@ -1,0 +1,108 @@
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-call:before {
+    content: "\f101";
+}
+.flaticon-left-arrow:before {
+    content: "\f102";
+}
+.flaticon-right-arrow:before {
+    content: "\f103";
+}
+.flaticon-check:before {
+    content: "\f104";
+}
+.flaticon-play:before {
+    content: "\f105";
+}
+.flaticon-boy:before {
+    content: "\f106";
+}
+.flaticon-study:before {
+    content: "\f107";
+}
+.flaticon-teacher:before {
+    content: "\f108";
+}
+.flaticon-monitor:before {
+    content: "\f109";
+}
+.flaticon-maps-and-flags:before {
+    content: "\f10a";
+}
+.flaticon-mail:before {
+    content: "\f10b";
+}
+.flaticon-magnifying-glass:before {
+    content: "\f10c";
+}
+.flaticon-laptop:before {
+    content: "\f10d";
+}
+.flaticon-helmet:before {
+    content: "\f10e";
+}
+.flaticon-apartment:before {
+    content: "\f10f";
+}
+.flaticon-computer:before {
+    content: "\f110";
+}
+.flaticon-briefcase:before {
+    content: "\f111";
+}
+.flaticon-book:before {
+    content: "\f112";
+}
+.flaticon-cap:before {
+    content: "\f113";
+}
+.flaticon-check-1:before {
+    content: "\f114";
+}
+.flaticon-close:before {
+    content: "\f115";
+}
+.flaticon-call-1:before {
+    content: "\f116";
+}
+.flaticon-email:before {
+    content: "\f117";
+}
+.flaticon-shopping-bag:before {
+    content: "\f118";
+}
+.flaticon-shopping-bag-1:before {
+    content: "\f119";
+}
+.flaticon-loupe:before {
+    content: "\f11a";
+}
+.flaticon-plus:before {
+    content: "\f11b";
+}
+.flaticon-minus:before {
+    content: "\f11c";
+}
